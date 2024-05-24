@@ -6,6 +6,8 @@ This API is a basic structure of a Rest API written in Go lang.
 ## Features
 
 - Get Status of the server /status
+- Post Login /login
+- Get Teste Authorization /testauth
 
 This API uses the Fiber framework.
 
