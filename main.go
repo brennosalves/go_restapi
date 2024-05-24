@@ -31,7 +31,7 @@ func main() {
 	app.Use(cors.New(cors.Config{
 		AllowOrigins: "*",
 		AllowHeaders: "Origin, Content-Type, Accept, Authorization",
-		AllowMethods: "GET",
+		AllowMethods: "GET, POST",
 	}))
 
 	// FIBER LOGGER FORMAT
